@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# How to run this project locally
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Run the command `npm install`
 
 ## Available Scripts
 
@@ -13,6 +13,16 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+
+## In case you made any change on the server side by changing the port number to another number
+
+If you changed the port number in the server directory, ensure you open config in the **src** directory and change it **API_URL** to match your url respectively.
+
+If you don't understand, watch the you channel on how i configured the two server url to match each other.
+
+## About Hosting
+Ensure the value of `homepage` in `package.json` matches your domain to host this app
 
 ### `npm test`
 
